@@ -1,1 +1,61 @@
 /* You can add global styles to this file, and also import other style files */
+
+/*
+    Light grey: rgb(243, 241, 241);
+*/
+html, body {
+    min-height: 100%;
+}
+
+body {
+    padding: 30px;
+}
+
+@media screen and (max-width: 1920px) {
+    .picsum-img-wrapper > img {
+        width:900px;
+        height:500px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .picsum-img-wrapper > img {
+        width:590px;
+        height:500px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .picsum-img-wrapper > img {
+        width: 455px;
+        height: 380px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .picsum-img-wrapper > img {
+        width:822px;
+        height:500px;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .picsum-img-wrapper > img {
+        width:725px;
+        height:500px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .picsum-img-wrapper > img {
+        width: 450px;
+        height: 425px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .picsum-img-wrapper > img {
+        width: 312px;
+        height: 425px;
+    }
+}

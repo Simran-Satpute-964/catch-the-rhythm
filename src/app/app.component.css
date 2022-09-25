@@ -1,0 +1,121 @@
+.container-block {
+    /* height: 100vh; */
+    background-color: rgb(243, 241, 241);
+}
+
+.header {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+
+    background-image: linear-gradient(to right, rgb(243, 241, 241) , deeppink);
+}
+
+.logo {
+    border-radius: 50%;
+    height: 10vh;
+    padding: 10px;
+}
+
+.header-text {
+    padding-top: 1rem;
+}
+
+.header-text h2, .header-text p {
+    font-family: Georgia;
+}
+
+.carousel-container {
+    margin: 10px 0px 10px 0px;
+}
+
+.about-section {
+    padding: 2rem;
+    background-image: linear-gradient(to right bottom, rgb(255, 145, 204, 0.8), rgb(255, 20, 147, 0.8)), url(../assets/images/about-cover.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+@media screen and (min-width: 900px) {
+    .about-box {
+        font-size: 1.5rem;
+    }
+
+    .about-section {
+        padding: 10rem;
+    }
+}
+
+.about-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2.5rem;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s;
+}
+
+.about-box:hover {
+    transform: translateY(-1rem) scale(1.03);
+}
+
+.courses-section {
+    margin: 2rem;
+    padding: 2rem;
+    text-align: center;
+
+    border-style: solid;
+    border-radius: 2rem;
+    border-color: deeppink;
+}
+
+.courses-box-heading {
+    text-align: center;
+    padding: 1rem;
+}
+
+.courses-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2.5rem;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+}
+
+.courses-box-picture--1 {
+    background-size: cover;
+    background-image: linear-gradient(to right bottom, rgba(250, 201, 153, 0.8), rgba(247, 127, 7, 0.8)), url(../assets/images/courses-cover.PNG);
+    height: 15rem;
+}
+
+.courses-box-picture--2 {
+    background-size: cover;
+    background-image: linear-gradient(to right bottom, rgba(126, 245, 156, 0.8), rgba(7, 247, 67, 0.8)), url(../assets/images/courses-cover.PNG);
+    height: 15rem;
+}
+
+.courses-box-details > .btn-success {
+    border-radius: 2rem;
+    font-size: larger;
+    transition: transform 0.3s;
+}
+
+.courses-box-details > .btn-success:hover {
+    transform:  scale(1.03);
+}
+
+.youtube-section {
+    padding: 2rem;
+    text-align: center;
+
+    background-image: linear-gradient(to right bottom, rgba(171, 239, 243, 0.8), rgba(9, 237, 249, 0.8)), url(../assets/images/about-cover.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+/*this css is only for identifying row*/
+/* .row > [class^="col-"]  {
+    background-color: rgba(86, 61, 124, 0.15);
+    border: 1px solid rgba(86, 61, 124, 0.2);
+   
+  } */
